@@ -1,0 +1,67 @@
+#slideshow {
+	width: 50%
+	height: 100%;
+	left: 40%;
+	top: 20%;
+	position: fixed;
+}
+
+p {
+	text-align: center;
+	margin: 20px;
+	display: inline;
+	background-color: none;
+	font-size: 1em;
+	color: green;
+}
+
+p:hover {
+	opacity: 0.5;
+}
+
+.slider {
+  overflow: hidden;
+  position: fixed;
+
+}
+
+.sliderImage {
+  list-style: none;
+  float: left;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.imageList {
+  position: absolute;
+  left: 0;
+  transition: 2s ease;
+
+}
+
+img {
+  width: 300px;
+}
+
+.firstPosition {
+  left: 0;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.secondPosition {
+	left: -300px;
+	position: absolute;
+}
+
+.thirdPosition {
+	left: 0px;
+	bottom: 600px;
+	position: absolute;
+}
+
+.fourthPosition {
+	left: 300px;
+	position: absolute;
+}
