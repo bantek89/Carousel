@@ -1,9 +1,21 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 320px){
+
+#slideshow {
+	left: 3%;
+	top: 20%;
+	position: fixed;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width: 600px){
 
 #slideshow {
 	top: 20%;
 	left: 10%;
+	width: 300px;
+	height: 100%;
 	position: absolute;
+
 }
 }
 
@@ -17,6 +29,8 @@
 	position: fixed;
 }
 }
+
+
 
 p {
 	text-align: center;
